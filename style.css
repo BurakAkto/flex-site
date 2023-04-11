@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.site-container {
+    background-color: beige;
+}
+
+.container {
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+.movie-name h1 {
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+
+.movie-actor ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.movie-actor ul li img {
+    border-radius: 10px;
+}
+
+.movie-actor h2 {
+    text-align: center;
+}
+
+.banner img{
+    height: 630px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.banner, iframe, button {
+    border-radius: 12px;
+}
+
+.actor-picture img {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+
+}
+.name-actor {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.name-actor p {
+
+    font-size: 20px;
+
+}
+
+.click-watch {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.click-watch button {
+    padding: 8px;
+    width: 105px;
+    background: #42394a;
+    color: #def5f5;
+    border:1px solid #935050;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.movie-comment {
+    text-align: center;
+    font-family: system-ui;
+    font-size: initial;
+    font-weight: bold;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.fragman iframe{
+    height: 580px;
+}
+
+
